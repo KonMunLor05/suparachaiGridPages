@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeting myself cs369</title>
+    <link rel="stylesheet" href="css directory/mypage.css">
+</head>
+<body>
+    <div class="header">
+        <h1>แนะนำตัว</h1>
+    </div>
+    <div class="row">
+        <div class="col-2 col-s-4 menu">
+            <img src="images directory/shi.jpg" width="100%" style="border-radius: 25px;">
+            <h2 style="text-align: center; color: white;">ศุภรชัย &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ทวีทอง</h2>
+            <ul>
+                <li  onclick="scrollToSection('detail')">รายละเอียดส่วนตัว</li>
+                <li  onclick="scrollToSection('showcase')">My showcase</li>
+                <li  onclick="scrollToSection('TU')">TU Life</li>
+                <li  onclick="scrollToSection('resume')">My resume</li>
+                <li  onclick="scrollToSection('footer')">ข้อมูลติดต่อ</li>
+            </ul>
+        </div>
+        <div class="col-10 col-s-8">
+            <div class="row-1" style="display: flex; justify-content: center; align-items: center;" >
+                <div class="col-11 col-s-8 content" id="detail">
+                    <div style="margin-top: 1%;">
+                        <h2 style="margin-top: 3%; margin-left: 2%;text-align: left;">รายละเอียดส่วนตัว</h2>
+                            <div class="row-3" style="margin-bottom: 3%;">
+                                <div class="col-6 col-s-12" style="margin-left: 2%;">
+                                    <video width="80%" controls>
+                                        <source src="vdo directory/sawaddee.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                                <div class="row-1 col-6 col-s-12">
+                                    <div class="row-3">
+                                        <div class="col-6 col-s-12">
+                                            <h2> ชื่อ : นายศุภรชัย </h2>
+                                        </div>
+                                        <div class="col-6 col-s-12">
+                                            <h2> นามสกุล : ทวีทอง </h2>
+                                        </div>
+                                    </div>
+                                    <div class="row-3">
+                                        <div class="col-6 col-s-6">
+                                            <h2>ชื่อเล่น : ริว </h2>
+                                        </div>
+                                        <div class="col-6 col-s-6">
+                                            <h2> อายุ: 20 ปี </h2>
+                                        </div>
+                                    </div>
+                                    <div class="row-3">
+                                        <div class="col-6 col-s-6">
+                                            <h2> สาขา : วิทยาการคอมพิวเตอร์</h2>
+                                        </div>
+                                        <div class="col-6 col-s-6">
+                                            <h2> งานอดิเรก : วาดรูป,ฟังเพลง </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-11 col-s-8 content" id="showcase">
+                    <div style="margin-top: 1%;">
+                        <h2 style="margin-top: 3%; margin-left: 2%;">My showcase</h2>
+                            <div class="row-3" style="text-align: center; margin-bottom: 3%;">
+                                <figure>
+                                    <img src="images directory/port1.png" width="50%"  />
+                                    <figcaption>ผลงานในการทำ web application เพื่อแสดงข้อมูลจาก Database ใมรูปแบบ Graph</figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="images directory/port2.png" width="50%" />
+                                    <figcaption>ผลงานการทำ web application ในการทดสอบเพิ่ม-ลบ-แก้ไข-อ่าน ข้อมูลจาก Database</figcaption>
+                                </figure>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-11 col-s-8 content" id="TU">
+                    <div style="margin-top: 1%;">
+                        <h2 style="margin-top: 3%; margin-left: 2%;">TU Life</h2>
+                            <div style="text-align: center; margin-bottom: 3%;">
+                                <div class="row-3">
+                                    <div class="col-6 col-s-12">
+                                        <img src="images directory/TU.png" width="50%">
+                                    </div>
+                                    <div class="col-6 col-s-12" style="text-align: left;">
+                                        <p> <span style="font-size: 30px;">ชีวิตในรั้ว TU </span> เป็นชีวิตที่ได้เรียนรู้อะไรหลายอย่างมากมายไม่ว่าจะทั้งด้านความรู้ <br><br>
+                                            ความเข้าใจในการทำโค้ดและการเรียนแบบมหาวิทยาลัย <br><br>
+                                            แต่สิ่งที่ได้มากที่สุดคงเป็นเรื่องการทำงานเป็นกลุ่มเพราะการใช้ชีวิตในสังคมนั้นยากที่จะรอด <br><br>
+                                            จากการทำงานประเภทนี้ ซึ่งได้จากรั้ว TU มาทั้งในด้านดีและด้านแย่ <br><br>
+                                            แต่รวมๆแล้วสนุกดีครับ</p>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-11 col-s-8 content" id="resume">
+                    <div style="margin-top: 1%;">
+                        <h2 style="margin-top: 3%; margin-left: 2%;">My resume</h2>
+                            <div class="row-3" style="text-align: center; margin-bottom: 3%;">
+                                <div class="col-6 col-s-12">
+                                    <img src="images directory/2.png" width="75%">
+                                </div>
+                                <div class="col-6 col-s-12" style="text-align: left;">
+                                    <h2>ประวัติการเรียน:</h2>
+                                    <p style="margin-left: 5%;"> 2018-2021 (มัธยมศึกษา)<br><br>
+                                        โรงเรียนฤทธิยะวรรณาลัย <br><br>
+                                        แผนการเรียน : วิทย์-คณิต<br><br>
+                                        2021-ปัจจุบัน (มหาวิทยาลัย)<br><br>
+                                        มหาวิทยาลัยธรรมศาสตร์<br><br>
+                                        คณะ : วิทยาศาสตร์และเทคโนโลยี<br><br>
+                                        สาขา : วิทยาการคอมพิวเตอร์</p>
+                                    <h2>ผลงานที่เคยทำ:</h2>
+                                    <p style="margin-left: 5%; margin-right: 5%;">
+                                        -ฝึกงานที่ Nextech Asia<br>
+                                        Software engineering | 2023<br><br>
+                                        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;ได้รับมอบหมายการพัฒนาหน้าแสดงผลสถิติภายในบริษัท Nextech Asia <br>
+                                        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;ออกแบบ Structure code โดยใช้พื้นฐานจากโค้ดของทางบริษัท<br> 
+                                        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;และออกแบบ Database เพื่อนำมาใช้งานร่วมกับหน้าเว็บ<br>
+                                        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;เขียนโค้ด HTML CSS  และ Javascript ในการทำหน้าเว็บ<br>
+                                        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;จากนั้น เขียนโค้ด PHP Jquery Ajax ในการทำงานร่วมกับ Database<br>
+                                        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;นำเสนอหน้าเว็บที่พัฒนากับหัวหน้างาน<br><br>
+                                        -ทำ Platform e-commerce Agricultures<br>
+                                        Digital marketing Project | 2023<br><br>
+
+                                        -ทำ Project maintainance หน้าเว็บไซด์<br>
+                                        Monopoly | 2023</p>
+                                </div>
+                            </div>
+                    </div>
+                </div>  
+            </div>
+        </div>  
+    </div>
+    <div class="footer" id="footer">
+        <h2>ข้อมูลติดต่อ</h2>
+        <div class="row-3" style="margin-left: 3%; margin-bottom: 1%;">
+            <div class="col-3 col-s-12">
+                <p><img src="images directory/fb.png" width="10%" style=" position: relative; top: 15px;">&nbsp; <a href="https://www.facebook.com/suparachai.taveetong/">Suparachai Taweethong</a></p>
+            </div>
+            <div class="col-3 col-s-12">
+                <p><img src="images directory/ig.png"width="10%" style=" position: relative; top: 15px;">&nbsp; <a href="https://www.instagram.com">konmunlor</a></p>
+            </div>
+            <div class="col-3 col-s-12">
+                <p><img src="images directory/gh.png" width="10%" style=" position: relative; top: 15px;">&nbsp; <a href="https://github.com/KonMunLor01/suparachaiPages">KonMunLor01</a></p>
+            </div>
+            <div class="col-3 col-s-12">
+                <p><img src="images directory/tel.png" width="10%" style=" position: relative; top: 15px;">&nbsp; 097-264-4251 </p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script>
+     function scrollToSection(sectionId) {
+        var section = document.getElementById(sectionId);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
+</script>
+</html>
