@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css directory/mypage2.css">
+</head>
+<body>
+    <div class="grid-container">
+        <div class=" header item1">
+            <h1>แนะนำตัว</h1>
+        </div>
+        <div class="item2 menu">
+            <img src="images directory/shi.jpg" width="100%" style="border-radius: 25px;">
+            <h2 style="text-align: center; color: white;">ศุภรชัย &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ทวีทอง</h2>
+            <ul>
+                <li><a href="index.html">รายละเอียดส่วนตัว</a></li>
+                <li><a href="showCase.html">My showcase</a></li>
+                <li><a href="TU.html">TU Life</a></li>
+                <li onclick="scrollToSection('detail')">My resume</li>
+                <li  onclick="scrollToSection('footer')">ข้อมูลติดต่อ</li>
+            </ul>
+        </div>
+        <div class="item3" id="detail">
+            <div style="margin-top: 1%;">
+                <h2 style="margin-top: 3%; margin-left: 2%;">My resume</h2>
+                    <div class="content">
+                        <div class="nitem1">
+                            <img src="images directory/2.png" width="75%">
+                        </div>
+                        <div class="nitem2">
+                            <h2>ประวัติการเรียน:</h2>
+                            <p style="margin-left: 5%;"> 2018-2021 (มัธยมศึกษา)<br><br>
+                                โรงเรียนฤทธิยะวรรณาลัย <br><br>
+                                แผนการเรียน : วิทย์-คณิต<br><br>
+                                2021-ปัจจุบัน (มหาวิทยาลัย)<br><br>
+                                มหาวิทยาลัยธรรมศาสตร์<br><br>
+                                คณะ : วิทยาศาสตร์และเทคโนโลยี<br><br>
+                                สาขา : วิทยาการคอมพิวเตอร์</p>
+                            <h2>ผลงานที่เคยทำ:</h2>
+                            <p style="margin-left: 5%; margin-right: 5%;">
+                                -ฝึกงานที่ Nextech Asia<br>
+                                Software engineering | 2023<br><br>
+                                &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;ได้รับมอบหมายการพัฒนาหน้าแสดงผลสถิติภายในบริษัท Nextech Asia <br>
+                                &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;ออกแบบ Structure code โดยใช้พื้นฐานจากโค้ดของทางบริษัท<br> 
+                                &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;และออกแบบ Database เพื่อนำมาใช้งานร่วมกับหน้าเว็บ<br>
+                                &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;เขียนโค้ด HTML CSS  และ Javascript ในการทำหน้าเว็บ<br>
+                                &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;จากนั้น เขียนโค้ด PHP Jquery Ajax ในการทำงานร่วมกับ Database<br>
+                                &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;นำเสนอหน้าเว็บที่พัฒนากับหัวหน้างาน<br><br>
+                                -ทำ Platform e-commerce Agricultures<br>
+                                Digital marketing Project | 2023<br><br>
+
+                                -ทำ Project maintainance หน้าเว็บไซด์<br>
+                                Monopoly | 2023</p>
+                        </div>
+                    </div>
+            </div> 
+        </div>  
+        <div class="item4" id="footer" style="background-color: #3A3B3B;">
+            <h2>ข้อมูลติดต่อ</h2>
+                    <p>
+                        <img src="images directory/fb.png" width="5%" style=" position: relative; top: 15px;">&nbsp; <a href="https://www.facebook.com/suparachai.taveetong/">Suparachai Taweethong</a>
+                        <img src="images directory/ig.png"width="5%" style=" position: relative; top: 15px;">&nbsp; <a href="https://www.instagram.com">konmunlor</a>
+                        <img src="images directory/gh.png" width="5%" style=" position: relative; top: 15px;">&nbsp; <a href="https://github.com/KonMunLor01/suparachaiPages">KonMunLor01</a>
+                        <img src="images directory/tel.png" width="5%" style=" position: relative; top: 15px;">&nbsp; 097-264-4251 
+                    </p>
+        </div>
+      </div>
+</body>
+<script>
+    function scrollToSection(sectionId) {
+       var section = document.getElementById(sectionId);
+       if (section) {
+           section.scrollIntoView({ behavior: 'smooth' });
+       }
+   }
+</script>
+</html>
